@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const GITHUB_REPO_URL = 'https://raw.githubusercontent.com/Rahmat1320/Fastest-Osm/main'; // Replace with your GitHub repo URL
+const GITHUB_REPO_URL = 'https://raw.githubusercontent.com/Rahmat1320/BasedSupermain/main'; // Replace with your GitHub repo URL
 const CDN_URL = 'http://ubistatic-a.akamaihd.net/0098/79875413'; // Replace with your CDN URL
 
 const server = http.createServer((req, res) => {
